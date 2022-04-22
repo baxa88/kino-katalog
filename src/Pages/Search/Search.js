@@ -57,7 +57,7 @@ const Search = () => {
           <TextField
             style={{ flex: 1 }}
             className="searchBox"
-            label="Search"
+            label="Izlash"
             variant="filled"
             onChange={(e) => setSearchText(e.target.value)}
           />
@@ -80,8 +80,8 @@ const Search = () => {
           style={{ paddingBottom: 5 }}
           aria-label="disabled tabs example"
         >
-          <Tab style={{ width: "50%" }} label="Search Movies" />
-          <Tab style={{ width: "50%" }} label="Search TV Series" />
+          <Tab style={{ width: "50%" }} label="Film Izlash" />
+          <Tab style={{ width: "50%" }} label="TV Serial Izlash" />
         </Tabs>
       </ThemeProvider>
       <div className="trending">
